@@ -1,4 +1,4 @@
-FROM golang:1.17.8-buster
+FROM golang:1.23-bookworm
 
 ARG COMMIT
 ENV COMMIT ${COMMIT:-master}
